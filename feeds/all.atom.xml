@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>いんふら屋さんのがらくたおきば</title><link href="http://yuhiwa.github.io/" rel="alternate"></link><link href="http://yuhiwa.github.io/feeds/all.atom.xml" rel="self"></link><id>http://yuhiwa.github.io/</id><updated>2015-07-28T23:23:00+09:00</updated><entry><title>pelicanの操作方法</title><link href="http://yuhiwa.github.io/2015-07-28-2.html" rel="alternate"></link><updated>2015-07-28T23:23:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-28:2015-07-28-2.html</id><summary type="html">&lt;ul&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>いんふら屋さんのがらくたおきば</title><link href="http://yuhiwa.github.io/" rel="alternate"></link><link href="http://yuhiwa.github.io/feeds/all.atom.xml" rel="self"></link><id>http://yuhiwa.github.io/</id><updated>2015-07-28T23:30:00+09:00</updated><entry><title>tmuxって</title><link href="http://yuhiwa.github.io/2015-07-28-3.html" rel="alternate"></link><updated>2015-07-28T23:30:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-28:2015-07-28-3.html</id><summary type="html">&lt;p&gt;tmuxってMacに入れても、ほったらかしにしといて続きからって感じのができないから
+GCE上のつけっぱなしサーバに入れたけど、
+ローカルで作業する方が多いから、あんまり意味ない&lt;/p&gt;</summary><category term="tmux"></category></entry><entry><title>pelicanの操作方法</title><link href="http://yuhiwa.github.io/2015-07-28-2.html" rel="alternate"></link><updated>2015-07-28T23:23:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-28:2015-07-28-2.html</id><summary type="html">&lt;ul&gt;
 &lt;li&gt;htmlの生成&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;make html
