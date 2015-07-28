@@ -2,7 +2,7 @@
 <html lang="ja"
 >
 <head>
-    <title>Categories - いんふら屋さんのがらくたおきば</title>
+    <title>pelican - いんふら屋さんのがらくたおきば</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -11,7 +11,8 @@
 
 
 
-        <meta name="author" content="Yuki" />
+    <meta name="author" content="Yuki" />
+    <meta name="keywords" content="pelican" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="いんふら屋さんのがらくたおきば" />
@@ -65,25 +66,35 @@
     <div class="row">
         <div class="col-sm-9 col-sm-push-3">
 
-    <section id="categories">
-        <h1>All Categories for いんふら屋さんのがらくたおきば</h1>
-        <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-tech">Tech <span class="badge pull-right">2</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-tech" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2015-07-28T23:23:00+09:00">2015年07月28日(火)</time></span> <a href="http://yuhiwa.github.io/2015-07-28-2.html">pelicanの操作方法</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2015-07-28T20:18:00+09:00">2015年07月28日(火)</time></span> <a href="http://yuhiwa.github.io/2015-07-28.html">tmux用のzshrc</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <article>
+                <h2><a href="http://yuhiwa.github.io/2015-07-28-2.html">pelicanの操作方法</a></h2>
+                <div class="summary"><ul>
+<li>htmlの生成</li>
+</ul>
+<div class="highlight"><pre>make html
+</pre></div>
 
-    </section>
+
+<ul>
+<li>webサーバの起動</li>
+</ul>
+<div class="highlight"><pre>make serve
+</pre></div>
+
+
+<ul>
+<li>githubにアップロード</li>
+</ul>
+<div class="highlight"><pre>make github
+</pre></div>
+
+
+<p>MakeFileにいろいろ書く</p>
+                    <a class="btn btn-default btn-xs" href="http://yuhiwa.github.io/2015-07-28-2.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
         </div>
         <div class="col-sm-3 col-sm-pull-9" id="sidebar">
             <aside>

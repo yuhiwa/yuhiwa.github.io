@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>hoge</title><link href="http://yuhiwa.github.io/" rel="alternate"></link><link href="http://yuhiwa.github.io/feeds/all.atom.xml" rel="self"></link><id>http://yuhiwa.github.io/</id><updated>2015-07-28T20:18:00+09:00</updated><entry><title>tmux用のzshrc</title><link href="http://yuhiwa.github.io/2015-07-28.html" rel="alternate"></link><updated>2015-07-28T20:18:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-28:2015-07-28.html</id><summary type="html">&lt;h3&gt;完全に個人用設定の .zshrc&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>いんふら屋さんのがらくたおきば</title><link href="http://yuhiwa.github.io/" rel="alternate"></link><link href="http://yuhiwa.github.io/feeds/all.atom.xml" rel="self"></link><id>http://yuhiwa.github.io/</id><updated>2015-07-28T23:23:00+09:00</updated><entry><title>pelicanの操作方法</title><link href="http://yuhiwa.github.io/2015-07-28-2.html" rel="alternate"></link><updated>2015-07-28T23:23:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-28:2015-07-28-2.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;htmlの生成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;make html
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;webサーバの起動&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;make serve
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;githubにアップロード&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;make github
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;MakeFileにいろいろ書く&lt;/p&gt;</summary><category term="pelican"></category></entry><entry><title>tmux用のzshrc</title><link href="http://yuhiwa.github.io/2015-07-28.html" rel="alternate"></link><updated>2015-07-28T20:18:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-28:2015-07-28.html</id><summary type="html">&lt;h3&gt;完全に個人用設定の .zshrc&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;# ansibleで遊ぶ用&lt;/span&gt;
 &lt;span class="n"&gt;export&lt;/span&gt; &lt;span class="n"&gt;CLOUDSDK_PYTHON_SITEPACKAGES&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;
 &lt;span class="n"&gt;export&lt;/span&gt; &lt;span class="n"&gt;ANSIBLE_HOST_KEY_CHECKING&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;False&lt;/span&gt;
