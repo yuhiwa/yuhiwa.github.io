@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>いんふら屋さんのがらくたおきば</title><link href="http://yuhiwa.github.io/" rel="alternate"></link><link href="http://yuhiwa.github.io/feeds/all.atom.xml" rel="self"></link><id>http://yuhiwa.github.io/</id><updated>2015-07-28T23:40:00+09:00</updated><entry><title>pelican</title><link href="http://yuhiwa.github.io/2015-07-28-4.html" rel="alternate"></link><updated>2015-07-28T23:40:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-28:2015-07-28-4.html</id><summary type="html">&lt;p&gt;vimでmdファイル書いて、&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>いんふら屋さんのがらくたおきば</title><link href="http://yuhiwa.github.io/" rel="alternate"></link><link href="http://yuhiwa.github.io/feeds/all.atom.xml" rel="self"></link><id>http://yuhiwa.github.io/</id><updated>2015-07-29T11:00:00+09:00</updated><entry><title>galaxy使ってみる</title><link href="http://yuhiwa.github.io/2015-07-29-1.html" rel="alternate"></link><updated>2015-07-29T11:00:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-29:2015-07-29-1.html</id><summary type="html">&lt;p&gt;とりあえず、試し&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;ansible-galaxy install gpstathis.elasticsearch
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;いきなりエラーでた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;- downloading role &amp;#39;elasticsearch&amp;#39;, owned by gpstathis
+- downloading role from https://github.com/Traackr/ansible-elasticsearch/archive/master.tar.gz
+- extracting gpstathis.elasticsearch to /etc/ansible/roles/gpstathis.elasticsearch
+- error: you do not have permission to modify files in /etc/ansible/roles/gpstathis.elasticsearch
+- gpstathis.elasticsearch was NOT installed successfully.
+- you can use --ignore-errors to skip failed roles.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;個人的な事情で、家のMac上のvimでこのブログ書きながら
+gce上のtmuxでやりとりするのがめんどくさくなってきたから、
+pelicanの環境、gce上に移す。&lt;/p&gt;
+&lt;p&gt;今回の500ドルクーポンが切れるまでは、gce上で全部作業しよう&lt;/p&gt;</summary><category term="ansible"></category></entry><entry><title>galaxyだけで済ます</title><link href="http://yuhiwa.github.io/2015-07-29.html" rel="alternate"></link><updated>2015-07-29T10:00:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-29:2015-07-29.html</id><summary type="html">&lt;p&gt;インフラ担当なのに、インストールとか構成考えたりするのがめんどくさいと思っています。
+定型的だし、だいたい同じようなもんだし。&lt;/p&gt;
+&lt;p&gt;https://twitter.com/ansible/status/626185700011081728&lt;/p&gt;
+&lt;p&gt;えっと、tonight,今晩だよね、まちがって落とした！？
+ただいま、日本時刻の10時10分。&lt;/p&gt;
+&lt;p&gt;ってこれ書いてる間に復活した。&lt;/p&gt;</summary><category term="ansible"></category></entry><entry><title>pelican</title><link href="http://yuhiwa.github.io/2015-07-28-4.html" rel="alternate"></link><updated>2015-07-28T23:40:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-28:2015-07-28-4.html</id><summary type="html">&lt;p&gt;vimでmdファイル書いて、&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;:PrevimOpen
 &lt;/pre&gt;&lt;/div&gt;
 

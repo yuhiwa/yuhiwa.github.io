@@ -2,7 +2,7 @@
 <html lang="ja"
 >
 <head>
-    <title>Archives - いんふら屋さんのがらくたおきば</title>
+    <title>galaxy使ってみる - いんふら屋さんのがらくたおきば</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,15 +10,21 @@
 
 
 
+<link rel="canonical" href="http://yuhiwa.github.io/2015-07-29-1.html">
 
         <meta name="author" content="Yuki" />
+        <meta name="keywords" content="ansible" />
+        <meta name="description" content="とりあえず、試し ansible-galaxy install gpstathis.elasticsearch いきなりエラーでた - downloading role &#39;elasticsearch&#39;, owned by gpstathis - downloading role from https://github.com/Traackr/ansible-elasticsearch/archive/master.tar.gz - extracting gpstathis.elasticsearch to /etc/ansible/roles/gpstathis.elasticsearch - error: you do not have permission to modify files in /etc/ansible/roles/gpstathis.elasticsearch - gpstathis ..." />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="いんふら屋さんのがらくたおきば" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="いんふら屋さんのがらくたおきば"/>
-        <meta property="og:url" content="http://yuhiwa.github.io"/>
-        <meta property="og:description" content="いんふら屋さんのがらくたおきば"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="galaxy使ってみる"/>
+        <meta property="og:url" content="http://yuhiwa.github.io/2015-07-29-1.html"/>
+        <meta property="og:description" content="とりあえず、試し ansible-galaxy install gpstathis.elasticsearch いきなりエラーでた - downloading role &#39;elasticsearch&#39;, owned by gpstathis - downloading role from https://github.com/Traackr/ansible-elasticsearch/archive/master.tar.gz - extracting gpstathis.elasticsearch to /etc/ansible/roles/gpstathis.elasticsearch - error: you do not have permission to modify files in /etc/ansible/roles/gpstathis.elasticsearch - gpstathis ..."/>
+        <meta property="article:published_time" content="2015-07-29" />
+            <meta property="article:section" content="Tech" />
+            <meta property="article:tag" content="ansible" />
+            <meta property="article:author" content="Yuki" />
 
 
     <!-- Bootstrap -->
@@ -48,7 +54,7 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                        <li >
+                        <li class="active">
                             <a href="http://yuhiwa.github.io/category/tech.html">Tech</a>
                         </li>
             </ul>
@@ -66,30 +72,58 @@
         <div class="col-sm-9 col-sm-push-3">
 
     <section id="content">
-        <h1>Archives for いんふら屋さんのがらくたおきば</h1>
-        <div id="archives">
-                <p>
-                    <span class="categories-timestamp"><time datetime="2015-07-29T11:00:00+09:00">2015年07月29日(水)</time></span>
-                    <a href="http://yuhiwa.github.io/2015-07-29-1.html">galaxy使ってみる</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2015-07-29T10:00:00+09:00">2015年07月29日(水)</time></span>
-                    <a href="http://yuhiwa.github.io/2015-07-29.html">galaxyだけで済ます</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2015-07-28T23:40:00+09:00">2015年07月28日(火)</time></span>
-                    <a href="http://yuhiwa.github.io/2015-07-28-4.html">pelican</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2015-07-28T23:23:00+09:00">2015年07月28日(火)</time></span>
-                    <a href="http://yuhiwa.github.io/2015-07-28-2.html">pelicanの操作方法</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2015-07-28T20:18:00+09:00">2015年07月28日(火)</time></span>
-                    <a href="http://yuhiwa.github.io/2015-07-28.html">tmux用のzshrc</a>
-                </p>
-        </div>
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://yuhiwa.github.io/2015-07-29-1.html"
+                       rel="bookmark"
+                       title="Permalink to galaxy使ってみる">
+                        galaxy使ってみる
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2015-07-29T11:00:00+09:00"> 2015年07月29日(水)</time>
+    </span>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="http://yuhiwa.github.io/tag/ansible.html">ansible</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>とりあえず、試し</p>
+<div class="highlight"><pre>ansible-galaxy install gpstathis.elasticsearch
+</pre></div>
+
+
+<ul>
+<li>いきなりエラーでた</li>
+</ul>
+<div class="highlight"><pre>- downloading role &#39;elasticsearch&#39;, owned by gpstathis
+- downloading role from https://github.com/Traackr/ansible-elasticsearch/archive/master.tar.gz
+- extracting gpstathis.elasticsearch to /etc/ansible/roles/gpstathis.elasticsearch
+- error: you do not have permission to modify files in /etc/ansible/roles/gpstathis.elasticsearch
+- gpstathis.elasticsearch was NOT installed successfully.
+- you can use --ignore-errors to skip failed roles.
+</pre></div>
+
+
+<p>個人的な事情で、家のMac上のvimでこのブログ書きながら
+gce上のtmuxでやりとりするのがめんどくさくなってきたから、
+pelicanの環境、gce上に移す。</p>
+<p>今回の500ドルクーポンが切れるまでは、gce上で全部作業しよう</p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
     </section>
+
         </div>
         <div class="col-sm-3 col-sm-pull-9" id="sidebar">
             <aside>
