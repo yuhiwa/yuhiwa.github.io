@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>いんふら屋さんのがらくたおきば</title><link href="http://yuhiwa.github.io/" rel="alternate"></link><link href="http://yuhiwa.github.io/feeds/all.atom.xml" rel="self"></link><id>http://yuhiwa.github.io/</id><updated>2015-07-29T11:00:00+09:00</updated><entry><title>galaxy使ってみる</title><link href="http://yuhiwa.github.io/2015-07-29-1.html" rel="alternate"></link><updated>2015-07-29T11:00:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-29:2015-07-29-1.html</id><summary type="html">&lt;p&gt;とりあえず、試し&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>いんふら屋さんのがらくたおきば</title><link href="http://yuhiwa.github.io/" rel="alternate"></link><link href="http://yuhiwa.github.io/feeds/all.atom.xml" rel="self"></link><id>http://yuhiwa.github.io/</id><updated>2015-07-29T12:00:00+09:00</updated><entry><title>pelicanのデフォルト設定がREADME.mdを消す</title><link href="http://yuhiwa.github.io/2015-07-29-2.html" rel="alternate"></link><updated>2015-07-29T12:00:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-29:2015-07-29-2.html</id><summary type="html">&lt;p&gt;他のバージョンだとわからないけど、現地点の最新のバージョンだと
+デフォルトで、make github したときに
+publishconf.pyを読んで、README.mdがいらない子だと判断されて消されてしまいます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;なので、publishconf.py の設定でこれが必要&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;DELETE_OUTPUT_DIRECTORY = False
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;むしゃくしゃして、githubのweb上からREADME.mdを作成して
+&lt;strong&gt;コンフリクト&lt;/strong&gt; して、寝る前にやったから思い出せなくて、原因が思い出せない。(pelicanユーザなら通る道なのかな)&lt;/p&gt;
+&lt;p&gt;README.mdだけ消さない設定があるかもしれないけど、
+メモ代わりブログでがんばりたくない。&lt;/p&gt;</summary><category term="pelican"></category><category term="git"></category></entry><entry><title>galaxy使ってみる</title><link href="http://yuhiwa.github.io/2015-07-29-1.html" rel="alternate"></link><updated>2015-07-29T11:00:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-29:2015-07-29-1.html</id><summary type="html">&lt;p&gt;とりあえず、試し&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;ansible-galaxy install gpstathis.elasticsearch
 &lt;/pre&gt;&lt;/div&gt;
 

@@ -66,6 +66,26 @@
         <div class="col-sm-9 col-sm-push-3">
 
             <article>
+                <h2><a href="http://yuhiwa.github.io/2015-07-29-2.html">pelicanのデフォルト設定がREADME.mdを消す</a></h2>
+                <div class="summary"><p>他のバージョンだとわからないけど、現地点の最新のバージョンだと
+デフォルトで、make github したときに
+publishconf.pyを読んで、README.mdがいらない子だと判断されて消されてしまいます。</p>
+<ul>
+<li>なので、publishconf.py の設定でこれが必要</li>
+</ul>
+<div class="highlight"><pre>DELETE_OUTPUT_DIRECTORY = False
+</pre></div>
+
+
+<p>むしゃくしゃして、githubのweb上からREADME.mdを作成して
+<strong>コンフリクト</strong> して、寝る前にやったから思い出せなくて、原因が思い出せない。(pelicanユーザなら通る道なのかな)</p>
+<p>README.mdだけ消さない設定があるかもしれないけど、
+メモ代わりブログでがんばりたくない。</p>
+                    <a class="btn btn-default btn-xs" href="http://yuhiwa.github.io/2015-07-29-2.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
                 <h2><a href="http://yuhiwa.github.io/2015-07-29-1.html">galaxy使ってみる</a></h2>
                 <div class="summary"><p>とりあえず、試し</p>
 <div class="highlight"><pre>ansible-galaxy install gpstathis.elasticsearch
