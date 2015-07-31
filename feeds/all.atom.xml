@@ -5,7 +5,7 @@
 できなくて、設定間違えてると思ってたら
 どうもできないもんらしい。&lt;/p&gt;
 &lt;p&gt;でも、あまり自信がない&lt;/p&gt;
-&lt;p&gt;http://stackoverflow.com/questions/28518039/how-to-route-between-two-or-more-private-network&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/28518039/how-to-route-between-two-or-more-private-network"&gt;http://stackoverflow.com/questions/28518039/how-to-route-between-two-or-more-private-network&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;いや、VPN貼れば、できないこともないのか。
 そもそもネットワーク区切る理由もあんまりないけど
 Regionは勝手にまたげるし。
@@ -25,7 +25,7 @@ origin  git://github.com/yuhiwa/yuhiwa.github.io.git (push)
 
 &lt;p&gt;エラー出たので、これやったけど
 原因はgitビルドするときにパッケージが足りてなかっただけ&lt;/p&gt;
-&lt;p&gt;http://qiita.com/a_ishidaaa/items/8bb63a625e8a89b21a12&lt;/p&gt;</summary><category term="gce"></category></entry><entry><title>pelicanのデフォルト設定がREADME.mdを消す</title><link href="http://yuhiwa.github.io/2015-07-29-2.html" rel="alternate"></link><updated>2015-07-29T12:00:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-29:2015-07-29-2.html</id><summary type="html">&lt;p&gt;他のバージョンだとわからないけど、現地点の最新のバージョンだと
+&lt;p&gt;&lt;a href="http://qiita.com/a_ishidaaa/items/8bb63a625e8a89b21a12"&gt;http://qiita.com/a_ishidaaa/items/8bb63a625e8a89b21a12&lt;/a&gt;&lt;/p&gt;</summary><category term="gce"></category></entry><entry><title>pelicanのデフォルト設定がREADME.mdを消す</title><link href="http://yuhiwa.github.io/2015-07-29-2.html" rel="alternate"></link><updated>2015-07-29T12:00:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-29:2015-07-29-2.html</id><summary type="html">&lt;p&gt;他のバージョンだとわからないけど、現地点の最新のバージョンだと
 デフォルトで、make github したときに
 publishconf.pyを読んで、README.mdがいらない子だと判断されて消されてしまいます。&lt;/p&gt;
 &lt;ul&gt;
