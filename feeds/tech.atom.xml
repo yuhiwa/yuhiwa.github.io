@@ -10,13 +10,13 @@
 そもそもネットワーク区切る理由もあんまりないけど
 Regionは勝手にまたげるし。
 arpがあふれることも知った事っちゃないし&lt;/p&gt;
-&lt;p&gt;でも、古いタイプの人は無駄に区切りたがるんだろうなー&lt;/p&gt;</summary></entry><entry><title>gce内のhttpsだめなの?</title><link href="http://yuhiwa.github.io/2015-07-30-1.html" rel="alternate"></link><updated>2015-07-30T23:23:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-30:2015-07-30-1.html</id><summary type="html">&lt;p&gt;メモ、あとで&lt;/p&gt;
+&lt;p&gt;でも、古いタイプの人は無駄に区切りたがるんだろうなー&lt;/p&gt;</summary></entry><entry><title>gce内のhttpsだめなの?</title><link href="http://yuhiwa.github.io/2015-07-30-1.html" rel="alternate"></link><updated>2015-07-30T23:23:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-30:2015-07-30-1.html</id><summary type="html">&lt;p&gt;たんなるメモ、あとで&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;git remote -v
 
 origin  https://github.com/yuhiwa/yuhiwa.github.io.git (fetch)
 origin  https://github.com/yuhiwa/yuhiwa.github.io.git (push)
 
-git remote set-url origin git://github.com/yuhiwa/yuhiwa.github.io.gitablog 
+git remote set-url origin git://github.com/yuhiwa/yuhiwa.github.io.git
 
 git remote -v
 origin  git://github.com/yuhiwa/yuhiwa.github.io.git (fetch)
