@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>いんふら屋さんのがらくたおきば</title><link href="http://yuhiwa.github.io/" rel="alternate"></link><link href="http://yuhiwa.github.io/feeds/ansible.atom.xml" rel="self"></link><id>http://yuhiwa.github.io/</id><updated>2015-08-02T19:00:00+09:00</updated><entry><title>ansible-galaxyのオプション</title><link href="http://yuhiwa.github.io/2015-08-02-2.html" rel="alternate"></link><updated>2015-08-02T19:00:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-08-02:2015-08-02-2.html</id><summary type="html">&lt;p&gt;いつも、忘れる&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;ansible-galaxy install -p rollの場所 roll名
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="ansible"></category><category term="tips"></category></entry></feed>
