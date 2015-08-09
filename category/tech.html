@@ -70,6 +70,24 @@
         <div class="col-sm-9 col-sm-push-3">
 
             <article>
+                <h2><a href="http://yuhiwa.github.io/2015-08-09.html">tmuxのprefix変更の決心が付かない</a></h2>
+                <div class="summary"><p>Ctrl+Bはコマンド打つときの一文字戻るでひっかかりすぎる
+Ctrl+Dはログアウトでひっかかる
+とりあえず、Ctrl+Tにしたけど、うちのキーボードだと少し遠い
+Ctrl+Zか、やはり</p>
+<div class="highlight"><pre># prefix を C-zに変更
+unbind-key C-b
+set-option -g prefix C-z
+bind-key C-z send-prefix
+</pre></div>
+
+
+<p>まだ、なれてないからタイプしまくる</p>
+                    <a class="btn btn-default btn-xs" href="http://yuhiwa.github.io/2015-08-09.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
                 <h2><a href="http://yuhiwa.github.io/2015-08-02-18.html">GraphiteかGrafanaか</a></h2>
                 <div class="summary"><p>GraphiteのWebの見た目とか操作した感が受け付けなかったのを瞬間的に思い出した。
 Grafanaで行こう</p>

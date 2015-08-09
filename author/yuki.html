@@ -69,6 +69,24 @@
         <div class="col-sm-9 col-sm-push-3">
 
             <article>
+                <h2><a href="http://yuhiwa.github.io/2015-08-09.html">tmuxのprefix変更の決心が付かない</a></h2>
+                <div class="summary"><p>Ctrl+Bはコマンド打つときの一文字戻るでひっかかりすぎる
+Ctrl+Dはログアウトでひっかかる
+とりあえず、Ctrl+Tにしたけど、うちのキーボードだと少し遠い
+Ctrl+Zか、やはり</p>
+<div class="highlight"><pre># prefix を C-zに変更
+unbind-key C-b
+set-option -g prefix C-z
+bind-key C-z send-prefix
+</pre></div>
+
+
+<p>まだ、なれてないからタイプしまくる</p>
+                    <a class="btn btn-default btn-xs" href="http://yuhiwa.github.io/2015-08-09.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
                 <h2><a href="http://yuhiwa.github.io/2015-08-02-2.html">ansible-galaxyのオプション</a></h2>
                 <div class="summary"><p>いつも、忘れる</p>
 <div class="highlight"><pre>ansible-galaxy install -p rollの場所 roll名
@@ -220,38 +238,16 @@ mdファイルの名前つけるのがめんどくさい、なんかやり方あ
                 </div>
             </article>
             <hr/>
-            <article>
-                <h2><a href="http://yuhiwa.github.io/2015-07-28.html">tmux用のzshrc</a></h2>
-                <div class="summary"><h3>完全に個人用設定の .zshrc</h3>
-<div class="highlight"><pre><span class="cp"># ansibleで遊ぶ用</span>
-<span class="n">export</span> <span class="n">CLOUDSDK_PYTHON_SITEPACKAGES</span><span class="o">=</span><span class="mi">1</span>
-<span class="n">export</span> <span class="n">ANSIBLE_HOST_KEY_CHECKING</span><span class="o">=</span><span class="n">False</span>
 
-<span class="cp"># zsh起動時に強制的にvirtualenvに入る</span>
-<span class="k">if</span> <span class="p">[</span> <span class="o">-</span><span class="n">n</span> <span class="s">&quot;$VIRTUAL_ENV&quot;</span> <span class="p">];</span> <span class="n">then</span>
-  <span class="p">.</span> <span class="s">&quot;$VIRTUAL_ENV/bin/activate&quot;</span>
-<span class="k">else</span>
-  <span class="n">workon</span> <span class="n">py27</span>
-<span class="n">fi</span>
-
-<span class="cp"># tmuxでsshで他サーバのログイン時にウィンドウ名をホスト名にする</span>
-<span class="n">ssh_tmux</span><span class="p">()</span> <span class="p">{</span>
-    <span class="n">ssh_cmd</span><span class="o">=</span><span class="s">&quot;ssh $@&quot;</span>
-    <span class="n">tmux</span> <span class="n">new</span><span class="o">-</span><span class="n">window</span> <span class="o">-</span><span class="n">n</span> <span class="s">&quot;$*&quot;</span> <span class="s">&quot;$ssh_cmd&quot;</span>
-<span class="p">}</span>
-
-<span class="k">if</span> <span class="p">[</span> <span class="err">$</span><span class="n">TERM</span> <span class="o">=</span> <span class="s">&quot;screen&quot;</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span>
-    <span class="n">tmux</span> <span class="n">lsw</span>
-    <span class="k">if</span> <span class="p">[</span> <span class="err">$</span><span class="o">?</span> <span class="o">-</span><span class="n">eq</span> <span class="mi">0</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span>
-        <span class="n">alias</span> <span class="n">ssh</span><span class="o">=</span><span class="n">ssh_tmux</span>
-    <span class="n">fi</span>
-<span class="n">fi</span>
-</pre></div>
-                    <a class="btn btn-default btn-xs" href="http://yuhiwa.github.io/2015-07-28.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-
+        <ul class="pagination">
+                <li class="prev disabled"><a href="#">&laquo;</a></li>
+                    <li class="active"><a
+                            href="http://yuhiwa.github.io/author/yuki.html">1</a></li>
+                    <li class=""><a
+                            href="http://yuhiwa.github.io/author/yuki2.html">2</a></li>
+                <li class="next"><a
+                        href="http://yuhiwa.github.io/author/yuki2.html">&raquo;</a></li>
+        </ul>
         </div>
         <div class="col-sm-3 col-sm-pull-9" id="sidebar">
             <aside>
