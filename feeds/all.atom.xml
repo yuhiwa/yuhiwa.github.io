@@ -10,7 +10,7 @@ bind-key C-z send-prefix
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;まだ、なれてないからタイプしまくる&lt;/p&gt;</summary><category term="tmux"></category></entry><entry><title>ansible-galaxyのオプション</title><link href="http://yuhiwa.github.io/2015-08-02-2.html" rel="alternate"></link><updated>2015-08-02T19:00:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-08-02:2015-08-02-2.html</id><summary type="html">&lt;p&gt;いつも、忘れる&lt;/p&gt;
+&lt;p&gt;まだ、なれてないからタイポしまくる&lt;/p&gt;</summary><category term="tmux"></category></entry><entry><title>ansible-galaxyのオプション</title><link href="http://yuhiwa.github.io/2015-08-02-2.html" rel="alternate"></link><updated>2015-08-02T19:00:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-08-02:2015-08-02-2.html</id><summary type="html">&lt;p&gt;いつも、忘れる&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;ansible-galaxy install -p rollの場所 roll名
 &lt;/pre&gt;&lt;/div&gt;</summary><category term="ansible"></category><category term="tips"></category></entry><entry><title>GraphiteかGrafanaか</title><link href="http://yuhiwa.github.io/2015-08-02-18.html" rel="alternate"></link><updated>2015-08-02T18:48:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-08-02:2015-08-02-18.html</id><summary type="html">&lt;p&gt;GraphiteのWebの見た目とか操作した感が受け付けなかったのを瞬間的に思い出した。
 Grafanaで行こう&lt;/p&gt;

@@ -10,7 +10,7 @@ bind-key C-z send-prefix
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;まだ、なれてないからタイプしまくる&lt;/p&gt;</summary><category term="tmux"></category></entry><entry><title>GraphiteかGrafanaか</title><link href="http://yuhiwa.github.io/2015-08-02-18.html" rel="alternate"></link><updated>2015-08-02T18:48:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-08-02:2015-08-02-18.html</id><summary type="html">&lt;p&gt;GraphiteのWebの見た目とか操作した感が受け付けなかったのを瞬間的に思い出した。
+&lt;p&gt;まだ、なれてないからタイポしまくる&lt;/p&gt;</summary><category term="tmux"></category></entry><entry><title>GraphiteかGrafanaか</title><link href="http://yuhiwa.github.io/2015-08-02-18.html" rel="alternate"></link><updated>2015-08-02T18:48:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-08-02:2015-08-02-18.html</id><summary type="html">&lt;p&gt;GraphiteのWebの見た目とか操作した感が受け付けなかったのを瞬間的に思い出した。
 Grafanaで行こう&lt;/p&gt;
 &lt;p&gt;と思っていじってたら、Grafanaは今のとこ、Graphiteのラッパーぽい。
 データソースにGraphite以外を選ぼうとしたら、まだまだベータ版だよって出る&lt;/p&gt;</summary><category term="resource"></category><category term="infra"></category></entry><entry><title>GCEよくわかってなかった</title><link href="http://yuhiwa.github.io/2015-07-31.html" rel="alternate"></link><updated>2015-07-31T11:30:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-31:2015-07-31.html</id><summary type="html">&lt;p&gt;Google Compute Engine で AWS と同じような感覚で
