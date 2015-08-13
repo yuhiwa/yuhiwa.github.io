@@ -2,7 +2,7 @@
 <html lang="ja"
 >
 <head>
-    <title>いんふら屋さんのがらくたおきば</title>
+    <title>Centos6 - いんふら屋さんのがらくたおきば</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,8 +10,9 @@
 
 
 
-<link rel="canonical" href="http://yuhiwa.github.io">
-        <meta name="author" content="Yuki" />
+
+    <meta name="author" content="Yuki" />
+    <meta name="keywords" content="Centos6" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="いんふら屋さんのがらくたおきば" />
@@ -69,74 +70,15 @@
         <div class="col-sm-9 col-sm-push-3">
 
             <article>
-                <h2><a href="http://yuhiwa.github.io/2015-07-28-2.html">pelicanの操作方法</a></h2>
-                <div class="summary"><ul>
-<li>htmlの生成</li>
-</ul>
-<div class="highlight"><pre>make html
-</pre></div>
-
-
-<ul>
-<li>webサーバの起動</li>
-</ul>
-<div class="highlight"><pre>make serve
-</pre></div>
-
-
-<ul>
-<li>githubにアップロード</li>
-</ul>
-<div class="highlight"><pre>make github
-</pre></div>
-
-
-<p>MakeFileにいろいろ書く</p>
-                    <a class="btn btn-default btn-xs" href="http://yuhiwa.github.io/2015-07-28-2.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="http://yuhiwa.github.io/2015-07-28.html">tmux用のzshrc</a></h2>
-                <div class="summary"><h3>完全に個人用設定の .zshrc</h3>
-<div class="highlight"><pre><span class="cp"># ansibleで遊ぶ用</span>
-<span class="n">export</span> <span class="n">CLOUDSDK_PYTHON_SITEPACKAGES</span><span class="o">=</span><span class="mi">1</span>
-<span class="n">export</span> <span class="n">ANSIBLE_HOST_KEY_CHECKING</span><span class="o">=</span><span class="n">False</span>
-
-<span class="cp"># zsh起動時に強制的にvirtualenvに入る</span>
-<span class="k">if</span> <span class="p">[</span> <span class="o">-</span><span class="n">n</span> <span class="s">&quot;$VIRTUAL_ENV&quot;</span> <span class="p">];</span> <span class="n">then</span>
-  <span class="p">.</span> <span class="s">&quot;$VIRTUAL_ENV/bin/activate&quot;</span>
-<span class="k">else</span>
-  <span class="n">workon</span> <span class="n">py27</span>
-<span class="n">fi</span>
-
-<span class="cp"># tmuxでsshで他サーバのログイン時にウィンドウ名をホスト名にする</span>
-<span class="n">ssh_tmux</span><span class="p">()</span> <span class="p">{</span>
-    <span class="n">ssh_cmd</span><span class="o">=</span><span class="s">&quot;ssh $@&quot;</span>
-    <span class="n">tmux</span> <span class="n">new</span><span class="o">-</span><span class="n">window</span> <span class="o">-</span><span class="n">n</span> <span class="s">&quot;$*&quot;</span> <span class="s">&quot;$ssh_cmd&quot;</span>
-<span class="p">}</span>
-
-<span class="k">if</span> <span class="p">[</span> <span class="err">$</span><span class="n">TERM</span> <span class="o">=</span> <span class="s">&quot;screen&quot;</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span>
-    <span class="n">tmux</span> <span class="n">lsw</span>
-    <span class="k">if</span> <span class="p">[</span> <span class="err">$</span><span class="o">?</span> <span class="o">-</span><span class="n">eq</span> <span class="mi">0</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span>
-        <span class="n">alias</span> <span class="n">ssh</span><span class="o">=</span><span class="n">ssh_tmux</span>
-    <span class="n">fi</span>
-<span class="n">fi</span>
-</pre></div>
-                    <a class="btn btn-default btn-xs" href="http://yuhiwa.github.io/2015-07-28.html">more ...</a>
+                <h2><a href="http://yuhiwa.github.io/2015-08-13.html">kickstart</a></h2>
+                <div class="summary"><p>超絶眠いから
+あとで読む</p>
+<p>https://www.andrewzammit.com/blog/install-centos-6-with-anaconda-kickstart-esxi-vmware-tools/</p>
+                    <a class="btn btn-default btn-xs" href="http://yuhiwa.github.io/2015-08-13.html">more ...</a>
                 </div>
             </article>
             <hr/>
 
-        <ul class="pagination">
-                <li class="prev"><a href="http://yuhiwa.github.io/index.html">&laquo;</a>
-                </li>
-                    <li class=""><a
-                            href="http://yuhiwa.github.io/index.html">1</a></li>
-                    <li class="active"><a
-                            href="http://yuhiwa.github.io/index2.html">2</a></li>
-                <li class="next disabled"><a href="#">&raquo;</a></li>
-        </ul>
         </div>
         <div class="col-sm-3 col-sm-pull-9" id="sidebar">
             <aside>
