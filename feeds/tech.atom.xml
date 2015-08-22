@@ -137,4 +137,46 @@ mdファイルの名前つけるのがめんどくさい、なんかやり方あ
         &lt;span class="n"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;ssh&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;ssh_tmux&lt;/span&gt;
     &lt;span class="n"&gt;fi&lt;/span&gt;
 &lt;span class="n"&gt;fi&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="tmux"></category><category term="zsh"></category><category term="linux"></category></entry></feed>
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="tmux"></category><category term="zsh"></category><category term="linux"></category></entry><entry><title>vimでブラウザ操作するハメになる</title><link href="http://yuhiwa.github.io/2015-07-22-1.html" rel="alternate"></link><updated>2015-07-22T23:23:00+09:00</updated><author><name>Yuki</name></author><id>tag:yuhiwa.github.io,2015-07-22:2015-07-22-1.html</id><summary type="html">&lt;p&gt;CentOS6のはなし
+諸事情により、vimからテキストブラウザを開きたくなりました&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;lynxを入れる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;yum -y install lynx
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;/etc/lynx.confの変更&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;CHARACTER_SET&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="n"&gt;utf&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;
+&lt;span class="n"&gt;PREFERRED_LANGUAGE&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="n"&gt;ja&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;CHARACTER_SETははじめらutf-8だった&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;vim-refのインストール&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;NeoBundle &amp;#39;thica/vim-ref&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;.vimrcに書いて、いつもの :NeoBundleInstall&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ここまで書いて、lynxがめんどくさそうだったので、w3mに方向転換&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;yum -y install w3m
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;w3m.vimのインストール&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;NeoBundle &amp;#39;yuratomo/w3m.vim&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;.vimrcに書いて、いつもの :NeoBundleInstall&lt;/p&gt;
+&lt;p&gt;これで :W3cでグーグル検索できるようになった。&lt;/p&gt;
+&lt;p&gt;そして、いつも忘れる、半ページ戻る Ctrl+u&lt;/p&gt;</summary><category term="vim"></category></entry></feed>

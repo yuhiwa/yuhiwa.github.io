@@ -89,6 +89,55 @@ mdファイルの名前つけるのがめんどくさい、なんかやり方あ
                 </div>
             </article>
             <hr/>
+            <article>
+                <h2><a href="http://yuhiwa.github.io/2015-07-22-1.html">vimでブラウザ操作するハメになる</a></h2>
+                <div class="summary"><p>CentOS6のはなし
+諸事情により、vimからテキストブラウザを開きたくなりました</p>
+<ul>
+<li>lynxを入れる</li>
+</ul>
+<div class="highlight"><pre>yum -y install lynx
+</pre></div>
+
+
+<ul>
+<li>/etc/lynx.confの変更</li>
+</ul>
+<div class="highlight"><pre><span class="n">CHARACTER_SET</span><span class="o">:</span><span class="n">utf</span><span class="o">-</span><span class="mi">8</span>
+<span class="n">PREFERRED_LANGUAGE</span><span class="o">:</span><span class="n">ja</span>
+</pre></div>
+
+
+<p>CHARACTER_SETははじめらutf-8だった</p>
+<ul>
+<li>vim-refのインストール</li>
+</ul>
+<div class="highlight"><pre>NeoBundle &#39;thica/vim-ref&#39;
+</pre></div>
+
+
+<p>.vimrcに書いて、いつもの :NeoBundleInstall</p>
+<ul>
+<li>ここまで書いて、lynxがめんどくさそうだったので、w3mに方向転換</li>
+</ul>
+<div class="highlight"><pre>yum -y install w3m
+</pre></div>
+
+
+<ul>
+<li>w3m.vimのインストール</li>
+</ul>
+<div class="highlight"><pre>NeoBundle &#39;yuratomo/w3m.vim&#39;
+</pre></div>
+
+
+<p>.vimrcに書いて、いつもの :NeoBundleInstall</p>
+<p>これで :W3cでグーグル検索できるようになった。</p>
+<p>そして、いつも忘れる、半ページ戻る Ctrl+u</p>
+                    <a class="btn btn-default btn-xs" href="http://yuhiwa.github.io/2015-07-22-1.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
         </div>
         <div class="col-sm-3 col-sm-pull-9" id="sidebar">
